@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Example</title>
+</head>
+<body>
+  <!-- Other page content -->
+
+  <!-- Added button -->
+  <button id="greet-button" type="button">hi a all</button>
+
+  <!-- Optional: small script to confirm it works -->
+  <script>
+    document.getElementById('greet-button')?.addEventListener('click', () => {
+      alert('Button clicked: hi a all');
+    });
+  </script>
+</body>
+</html>
